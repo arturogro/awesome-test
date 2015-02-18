@@ -1,4 +1,7 @@
 {
   "name": "awesome-test",
-  "main": "server.js"
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
 }
