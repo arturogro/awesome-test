@@ -104,6 +104,13 @@ apiRouter.use(function(req,res,next){
 	// next() used to be here
 })
 
+// api endpoint to get user information
+apiRouter.get('/me', function(req,res){
+	res.send(req.decoded);
+})
+
+
+
 // route middleware and first route are here
 
 // on routes that end in /users
