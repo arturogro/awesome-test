@@ -16,8 +16,7 @@ var superSecret = 'ilovescotchscotchyscotchscotch';
 mongoose.connect('mongodb://node:noder@novus.modulusmongo.net:27017/Iganiq8o');
 
 // APP CONFIGURATION
-// use body parser s
-o we can grab information form POST requests
+// use body parser so we can grab information form POST requests
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
